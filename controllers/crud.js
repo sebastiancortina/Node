@@ -1,4 +1,5 @@
 const conextion = require('../database/db');
+const prueba = 0;
 
 exports.save = (req, res) => {
     const user = req.body.user;
